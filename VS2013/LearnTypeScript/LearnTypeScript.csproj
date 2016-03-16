@@ -59,6 +59,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2-Classes\02-Methods.html" />
+    <Content Include="2-Classes\03-Interfaces.html" />
+    <Content Include="2-Classes\04-Inheritance.html" />
+    <Content Include="2-Classes\05-Generics.html" />
     <Content Include="3-ExternalLibs\.gitignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -73,9 +77,6 @@
     <Content Include="1-Basics\02-Enumerations.html" />
     <Content Include="1-Basics\03-ES6Compatibility.html" />
     <Content Include="2-Classes\01-Simple.html" />
-    <Content Include="2-Classes\02-Interfaces.html" />
-    <Content Include="2-Classes\03-Inheritance.html" />
-    <Content Include="2-Classes\04-Generics.html" />
     <Content Include="3-ExternalLibs\01-OldStuff.js" />
     <Content Include="3-ExternalLibs\01-Simple.html" />
     <Content Include="Web.config" />
@@ -89,9 +90,10 @@
     <TypeScriptCompile Include="1-Basics\02-Enumerations.ts" />
     <TypeScriptCompile Include="1-Basics\03-ES6Compatibility.ts" />
     <TypeScriptCompile Include="2-Classes\01-Simple.ts" />
-    <TypeScriptCompile Include="2-Classes\02-Interfaces.ts" />
-    <TypeScriptCompile Include="2-Classes\03-Inheritance.ts" />
-    <TypeScriptCompile Include="2-Classes\04-Generics.ts" />
+    <TypeScriptCompile Include="2-Classes\02-Methods.ts" />
+    <TypeScriptCompile Include="2-Classes\03-Interfaces.ts" />
+    <TypeScriptCompile Include="2-Classes\04-Inheritance.ts" />
+    <TypeScriptCompile Include="2-Classes\05-Generics.ts" />
     <TypeScriptCompile Include="3-ExternalLibs\01-Simple.ts" />
     <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="typings\oldStuff\oldStuff.d.ts" />
