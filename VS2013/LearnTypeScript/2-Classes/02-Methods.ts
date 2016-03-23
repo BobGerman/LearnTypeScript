@@ -12,7 +12,7 @@
     //     someObject.myFunc(), this is someObject
     // 4 - If in strict mode, this will be undefined
     // 5 - Otherwise this will be the global object
-
+    
     class Person {
         
         private firstName: string;
