@@ -67,7 +67,7 @@
         //t.substr(1);      // COMPILER ERROR!
         t = 4;
     }
-    result += '<br />t=' + t;
+    result += '<br />t=' + t + '<br />';
 
     // * Union Types *
     var couldBe1: string | [string] = "Hello";
