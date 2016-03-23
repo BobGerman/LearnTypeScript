@@ -3,22 +3,22 @@
 // outside the namespace or module; otherwise
 // it's hidden.
 
-// Here is a simple namespace
+// * Simple namespace *
 namespace demo {
     var message = "Hello, world";
     export var result = message;
     console.log (result);
 }
 
-// Here is a Typescript IIFE:
+// * Immediately Invoked Function Expression (IIFE) *
 ((): void => {
     var result = "Goodbye";
     console.log (result);
 })()
 
-// Namespaces can be nested
+// * Modules and namespaces can be nested *
 module outer {
-    export module inner {
+    export module inner {       // Use export to make visible
         export function addExcitement (message) {
             return message + "!";
         }
