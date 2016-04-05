@@ -7,7 +7,7 @@ but don't do anything useful beyond demonstrating how the language works. The HT
 can be served from any web server, and are just there to run the scripts and display
 some output.
 
-(Here are slides)[http://www.slideshare.net/BobGerman/typescript-101-introduction]
+[Here are slides](http://www.slideshare.net/BobGerman/typescript-101-introduction)
 from a presentation at Boston Code Camp 25 where this material was used. The slides attempt to
 answer the question "Why Typescript", and include the steps to set up your TypeScript
 development environment.
