@@ -69,6 +69,14 @@
     }
     result += '<br />t=' + t + '<br />';
 
+    // * Optional members *
+    var all: { red: number, blue: number }
+    var some: { red?: number, blue?: number }
+    all = { red: 100, blue: 200 }
+    some = { red: 100 }     // No need for blue, it's optional!
+    // Compiler error - blue is missing!
+    // all = { red: 100 };
+
     // * Union Types *
     var couldBe1: string | [string] = "Hello";
     var couldBe2: string | [string] = ["a","b"];
